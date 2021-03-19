@@ -1,0 +1,25 @@
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+df = pd.read_csv("dat1.csv")
+print(df)
+plt.plot(df["n_thd"],df["100000"],c="b",label="100000")
+plt.xlabel("No. of threads")
+plt.ylabel("Running time (ms)")
+plt.legend()
+plt.show()
+plt.plot(np.log2(df["n_thd"]),df["10000"],label="10000")
+plt.plot(np.log2(df["n_thd"]),df["1000"],label="1000")
+plt.plot(np.log2(df["n_thd"]),df["100"],label="100")
+plt.xlabel("No. of threads")
+plt.ylabel("Running time (ms)")
+plt.legend()
+plt.show()
+plt.plot(df["n_thd"],df["10000"],label="10000")
+plt.plot(df["n_thd"],df["1000"],label="1000")
+plt.plot(df["n_thd"],df["100"],label="100")
+plt.xlabel("No. of threads")
+plt.ylabel("Running time (ms)")
+plt.legend()
+plt.show()
