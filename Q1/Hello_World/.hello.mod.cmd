@@ -1,0 +1,1 @@
+cmd_/home/spider/Desktop/Bad_Modules_Test/Hello_World/hello.mod := { echo  /home/spider/Desktop/Bad_Modules_Test/Hello_World/hello.o;  echo; } > /home/spider/Desktop/Bad_Modules_Test/Hello_World/hello.mod
