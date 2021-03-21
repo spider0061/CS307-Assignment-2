@@ -66,4 +66,22 @@ gcc version: 9.3
 - Type "tail /var/log/kern.log" on terminal to view kernel log
 - Type "rmmod test3" to remove module from terminal
 
-### Q2. 
+### Q2. Round-Robin Scheduling
+
+### Libraries used:
+
+1. iostream
+2. queue
+3. vector
+
+### Running the code
+
+- Enter Q2 folder 
+- Type "make"
+- Type "./q2"
+- provide with arguments:
+  <No. of processes>
+  <array of arrival time>
+  <array of burst time>
+  <time quantum>
+- The program will produce the required output.    
