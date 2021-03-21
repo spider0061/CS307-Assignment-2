@@ -77,6 +77,7 @@ gcc version: 9.3
 ### Running the code
 
 - Enter Q2 folder 
-- Type "make"
-- Type "./q2 <No. of processes> <array of arrival time> <array of burst time> <time quantum>"
-- The program will produce the required output.    
+- Type "make" on terminal
+- Type "./q2" on terminal
+- Give input as No. of processes, array of arrival time, array of burst time, time quantum
+- The program will produce the required output   
