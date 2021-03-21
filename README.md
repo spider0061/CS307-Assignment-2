@@ -78,10 +78,5 @@ gcc version: 9.3
 
 - Enter Q2 folder 
 - Type "make"
-- Type "./q2"
-- provide with arguments:
-  <No. of processes>
-  <array of arrival time>
-  <array of burst time>
-  <time quantum>
+- Type "./q2 <No. of processes> <array of arrival time> <array of burst time> <time quantum>"
 - The program will produce the required output.    
