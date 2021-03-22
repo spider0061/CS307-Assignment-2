@@ -79,5 +79,23 @@ gcc version: 9.3
 - Enter Q2 folder 
 - Type "make" on terminal
 - Type "./q2" on terminal
-- Give input as No.-of-processes array-of-arrival-time array-of-burst-time time-quantum
+- The program will produce the required output
+
+### Q3. Merge Sort using threads
+
+### Libraries used:
+
+1. iostream
+2. stdio.h
+3. cmath
+4. chrono
+5. pthread.h
+6. time.h
+7. stdlib.h
+
+### Running the code
+
+- Enter Q3 folder 
+- Type "make" on terminal
+- Type "./myprogram" on terminal
 - The program will produce the required output   
